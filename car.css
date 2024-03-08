@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********************************************************navigation bar********************************************************************************************/
+
+header {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+}
+
+/***********************************************************main********************************************************************************************/
+
+#main {
+    background-image: url('images/Polo-GT-3.jfif'); 
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/***********************************************************Image cards********************************************************************************************/
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+.card {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card-content p {
+    color: #666;
+}
+
+.card-content a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/***********************************************************About********************************************************************************************/
+
+#about{
+    text-align: center;
+}
+
+
+/***********************************************************Services********************************************************************************************/
+
+#services{
+    text-align: center;
+}
+.service {
+    margin-bottom: 30px;
+    text-align: center;
+}
+/***********************************************************Contact********************************************************************************************/
+
+#contact{
+    text-align: center;
+}
+
+
+/***********************************************************Footer********************************************************************************************/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
